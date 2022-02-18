@@ -1,0 +1,6 @@
+.o{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1.0;
+}
