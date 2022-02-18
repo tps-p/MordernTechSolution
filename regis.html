@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTS Register</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <img class="o" src="images/o.jpg" width="1600" height="800" alt="venture hotel">
+    <div class="container">
+        <h1>Mordern Tech Solution</h1>
+        <p>! Get The Best<span> From The Rest!</span></p>
+        <p class="Submitmsg">Register here for contact us.</p>
+    
+        <script src="welcome.js"></script>
+
+        <form action="connect.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="age" name="age" id="age" placeholder="age">
+            <input type="gender" name="gender" id="gender" placeholder="Gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any suggestion"></textarea>
+            <button class="btn" type="submit" href="">submit</button>    
+        </form>
+    </div>
+    
+    <!--INSERT INTO regis (`sno`, `name`, `age`, `gender`, `email`, `phone`, `others`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";-->
+  //echo sql
+</body>
+</html>
